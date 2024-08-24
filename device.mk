@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 LOCAL_PATH := device/vivo/V2230A
-=======
-LOCAL_PATH := device/vivo/k6833v1_64_k419
->>>>>>> 751718c20f8e34cc938dc36e74a6a36504685a16
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
