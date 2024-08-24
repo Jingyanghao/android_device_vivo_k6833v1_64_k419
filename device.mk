@@ -1,3 +1,6 @@
+# Inherit from OEM SOC-common
+$(call inherit-product, $(COMMON_PATH)/common.mk)
+
 LOCAL_PATH := device/vivo/V2230A
 
 # API
