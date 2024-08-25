@@ -133,6 +133,3 @@ BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
 
 # Display
 TARGET_SCREEN_DENSITY := 320
-
-# Inherit from OEM SoC-common
--include $(COMMON_PATH)/BoardConfigCommon.mk
