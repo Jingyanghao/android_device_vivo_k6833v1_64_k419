@@ -16,4 +16,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_V2230A.mk
+    $(LOCAL_DIR)/omni_V2230A.mk
