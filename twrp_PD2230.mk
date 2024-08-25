@@ -19,7 +19,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Device specific configs
+# Inherit from PD2230 device
 $(call inherit-product, device/vivo/PD2230/device.mk)
 
 PRODUCT_DEVICE := PD2230
