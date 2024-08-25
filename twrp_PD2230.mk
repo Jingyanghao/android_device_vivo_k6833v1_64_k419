@@ -27,7 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device specific configs
-$(call inherit-product, device/vivo/PD2238/device.mk)
+$(call inherit-product, device/vivo/PD2230/device.mk)
 
 PRODUCT_DEVICE := PD2230
 PRODUCT_NAME := twrp_PD2230
