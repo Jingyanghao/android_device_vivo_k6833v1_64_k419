@@ -11,6 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from V2230A device
 $(call inherit-product, device/vivo/V2230A/device.mk)
+# Inherit from our custom product configuration
+$(call inherit-product, vendor/$(CUSTOM_VENDOR)/config/common.mk)
 
 PRODUCT_DEVICE := V2230A
 PRODUCT_NAME := omni_V2230A
