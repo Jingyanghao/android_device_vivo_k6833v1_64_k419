@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=V2230A
+DEVICE=PD2230
 VENDOR=vivo
 
 # Load extract_utils and do some sanity checks
