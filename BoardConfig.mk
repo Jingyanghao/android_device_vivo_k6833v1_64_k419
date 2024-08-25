@@ -83,7 +83,7 @@ BOARD_MAIN_SIZE := 12348030976
 BOARD_MAIN_PARTITION_LIST := cust product system vendor vgc
 
 # System as root
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
 
 # AVB
 BOARD_AVB_ENABLE := true
